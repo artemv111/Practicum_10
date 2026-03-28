@@ -1,7 +1,7 @@
-n = int(input())
-
 def fibonacci(n):
-
+    '''
+    Функция печатает первые n чисел последовательности Фибоначчи
+    '''
     if n > 0:
         first, second = 1, 1
         print(first,end=' ')
@@ -13,4 +13,5 @@ def fibonacci(n):
             print(third,end=' ')
             first, second = second, third
 
+n = int(input())
 fibonacci(n)
